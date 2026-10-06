@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>❤️ Kita Bersama</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    /* === WARNA UTAMA — GANTI SESUAI SELERA DI SINI === */
+    :root {
+      --merah: #E91E63;
+      --merah-gelap: #C2185B;
+      --latar: #FCE4EC;
+      --putih: #FFFFFF;
+      --teks: #333333;
+    }
+
+    body {
+      background: var(--latar);
+      color: var(--teks);
+      line-height: 1.6;
+    }
+
+    /* === NAVIGASI === */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: var(--putih);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 10px 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: var(--teks);
+      text-decoration: none;
+      font-size: 14px;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      color: var(--merah);
+    }
+
+    /* === BAGIAN HALAMAN === */
+    section {
+      min-height: 100vh;
+      padding: 60px 20px 30px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: var(--merah-gelap);
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: var(--merah);
+      font-size: 22px;
+      margin: 20px 0 10px;
+    }
+
+    p, li {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    /* === FOTO === */
+    .foto-bulat {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--merah);
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    /* === KOTAK ISI === */
+    .kotak {
+      background: var(--putih);
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    /* === GALERI === */
+    .galeri {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .galeri img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    /* === FOOTER === */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--merah);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ==== NAVIGASI — 10 HALAMAN ==== -->
+<nav align="center">
+  <a href="#beranda">Beranda</a>
+  <a href="#tentang">Tentang</a>
+  <a href="#galeri">Galeri</a>
+  <a href="#tanggal">Tanggal</a>
+  <a href="#alasan">Alasan</a>
+  <a href="#pesan">Pesan</a>
+  <a href="#kisah">Kisah</a>
+  <a href="#suka">Suka</a>
+  <a href="#harapan">Harapan</a>
+  <a href="#kirim">Kirim</a>
+</nav>
+
+<!-- =================================== -->
+<!-- 1. BERANDA — GANTI FOTO & NAMA DI BAWAH -->
+<section id="beranda" align="center">
+  <img src="g.jpg" alt="Foto Kita" class="foto-bulat">
+  <h1> ZIAN️ </h1>
+  <p style="font-size: 18px; color: #666;">Selamanya Bersama ❤️</p>
+  <br>
+  <p>"Cinta itu sederhana: aku untuk kamu, dan kamu untuk aku."</p>
+</section>
+
+<!-- =================================== -->
+<!-- 2. TENTANG KITA — GANTI NAMA & CERITA -->
+<section id="tentang">
+  <h1>Tentang Kita 💑</h1>
+  <div class="kotak">
+    <h2>💖 [ANDRI]</h2>
+    <p>Saya orang yang sederhana, suka hal-hal indah, dan bermimpi membangun masa depan bersama orang yang saya cintai.</p>
+  </div>
+  <div class="kotak">
+    <h2>❤️ [FAUDZIAH ]</h2>
+    <p>Sosok yang hangat, penyayang, dan selalu ada. Suka kebersamaan dan ingin selalu bahagia bersama.</p>
+  </div>
+  <div class="kotak">
+    <h2>Ketika Bersama ❤️</h2>
+    <p>Kita saling melengkapi. Berbeda namun satu hati. Sejak bertemu, hari-hari terasa lebih berwarna. Terima kasih sudah hadir, sayang!</p>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 3. GALERI — GANTI FOTO & KETERANGAN -->
+<section id="galeri">
+  <h1>📸 Galeri Kenangan</h1>
+  <div class="galeri">
+    <div><img src="k.jpg" alt=""><p>pertama</p></div>
+    <div><img src="m.jpg" alt=""><p>kedua</p></div>
+    <div><img src="o.jpg" alt=""><p>ketiga</p></div>
+    <div><img src="p.jpg" alt=""><p>keempat</p></div>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 4. TANGGAL PENTING — GANTI TANGGAL -->
+<section id="tanggal">
+  <h1>📅 Tanggal Penting</h1>
+  <div class="kotak">
+    <p><strong>📅 [28-10-2025]</strong> — Pertama Kali Bertemu 💖</p>
+    <p><strong>📅 [22-12-2025]</strong> — Mulai Bersatu ❤️</p>
+    <p><strong>📅 [23-06-2009]</strong> — Ulang Tahun Kamu 🎂</p>
+    <p><strong>📅 [28-07-2010]</strong> — Ulang Tahun Saya 🎂</p>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 5. ALASAN MENCINTAIMU — TAMBAH/HAPUS -->
+<section id="alasan">
+  <h1>💖 Alasan Mencintaimu</h1>
+  <div class="kotak">
+    <p>1. Senyummu yang selalu membuat hatiku tenang</p>
+    <p>2. Kamu selalu sabar menghadapiku</p>
+    <p>3. Kamu mengerti aku tanpa banyak kata</p>
+    <p>4. Selalu ada saat aku butuh seseorang</p>
+    <p>5. Tawamu adalah hal favoritku</p>
+    <p>6. Kamu membuatku ingin jadi lebih baik</p>
+    <p>7. Cara kamu menatapku penuh kasih</p>
+    <p>8. Sederhana tapi selalu bermakna</p>
+    <p>9. Kamu peduli pada hal-hal kecil tentangku</p>
+    <p>10. Karena kamu adalah kamu — apa adanya ❤️</p>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 6. PESAN CINTA — GANTI ISI PESAN -->
+<section id="pesan">
+  <h1>💌 Pesan Cinta</h1>
+  <div class="kotak">
+    <p>Untuk Sayangku,</p>
+    <p>Terima kasih sudah hadir di hidupku. Kamu mengubah hari-hari biasa jadi luar biasa. Terima kasih sudah sabar, sudah mengerti, dan selalu ada untukku.</p>
+    <p>Maaf kalau aku belum sempurna. Tapi aku berusaha jadi yang terbaik untuk kita.</p>
+    <p>Tak peduli apa yang terjadi, aku takkan pernah menyesal memilihmu.</p>
+    <p>Selamanya milikmu,<br>❤️ [Nama Kamu]</p>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 7. KISAH KITA — TULIS KISAH KALIAN -->
+<section id="kisah">
+  <h1>📖 Kisah Kita</h1>
+  <div class="kotak">
+    <p>Semuanya bermula dari pertemuan yang tak direncanakan. Sapa sederhana, lalu obrolan yang tak henti. Siapa sangka itu awal kisah kita?</p>
+    <p>Setiap pertemuan membuat kita makin dekat. Kita saling mengenal, bukan hanya rupa, tapi juga isi hati. Tentu tak selalu mulus — ada perbedaan, ada perdebatan kecil. Tapi itu justru bikin kita makin paham satu sama lain.</p>
+    <p>Kini kita melangkah bersama. Bukan karena sempurna, tapi karena saling melengkapi. Dan ini baru permulaan — masih banyak halaman yang akan kita tulis bersama. ❤️</p>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 8. YANG KITA SUKAI — ISI SESUAI SELERA -->
+<section id="suka">
+  <h1>💕 Hal yang Kita Suka</h1>
+  <div class="kotak">
+    <p>🍜 Makanan: dimsum,tahu crispy</p>
+    <p>🎬 Film: horor, Upin Ipin</p>
+    <p>🎵 Lagu: amin paling serius</p>
+    <p>📍 Tempat: taman</p>
+    <p>💞 Kegiatan: keliling</p>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 9. HARAPAN & DOA — GANTI SESUAI HATI -->
+<section id="harapan">
+  <h1>🤲 Doa & Harapan</h1>
+  <div class="kotak">
+    <p>Semoga kita selalu bersama, saling menjaga, dan saling menguatkan. Semoga cinta kita makin kuat dari hari ke hari. Semoga apa pun yang terjadi, kita tetap memilih satu sama lain.</p>
+    <p>Semoga kelak kita bisa membangun masa depan yang indah bersama. Saling mendukung mimpi masing-masing, dan tumbuh menjadi pribadi yang lebih baik.</p>
+    <p>Aamiin 🤲❤️</p>
+  </div>
+</section>
+
+<!-- =================================== -->
+<!-- 10. KIRIM PESAN — TINGGAL NAMA -->
+<section id="kirim">
+  <h1>💬 Pesan untuk Kita</h1>
+  <div class="kotak">
+    <p>Nama Kamu:</p>
+    <input type="text" style="width:100%; padding:10px; margin:5px 0 15px; border:1px solid #ddd; border-radius:5px;">
+    <p>Pesan:</p>
+    <textarea style="width:100%; height:120px; padding:10px; margin:5px 0 15px; border:1px solid #ddd; border-radius:5px;"></textarea>
+    <button style="background:var(--merah); color:white; border:none; padding:10px 25px; border-radius:5px; font-size:16px; cursor:pointer;">Kirim Pesan ❤️</button>
+  </div>
+</section>
+
+<!-- =================================== -->
+<footer>
+  Dibuat dengan ❤️ oleh ZIAN
+</footer>
+
+</body>
+</html>
